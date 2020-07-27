@@ -1,58 +1,245 @@
 <!DOCTYPE html>
-    <html lang="en-us">
-        <head>
-            <meta charset="UTF-8">
-                
-            <title>Professional Bio</title>
-            
-            <!-- Linking CSS -->
-	        <link rel="stylesheet" type="text/css" href="style.css">    
-        
-        </head>
-
-    <body>
-  
-        <header>
-            <h1>Professional Bio</h1>
-        </header>
-
-    <div class="container">
-
-    <section id="main-bio">
-        
-            <h2>Brian Soldani</h2>
-
-            <img src="https://briansoldani.github.io/student_bio/mypic.jpg" alt="Brian Soldani" width="200" height="200" id="bio-image">
-
-            <p>
-            Business professional with extensive sales operations and business development experience. Hands on approach to solve issues, drive efficiency, and develop strong sales organizations. Strength in building long term strategic partnerships and establishing rapport with industry professionals. Diverse background and experience with a wide range of skills evolved from owning a business and leading startups to growth.
-            </p>
-     
-            <p>
-            I've spent the last several years at the world's largest startup building out processes and growing ad revenues to generate over $40M per week. As a trusted advisor and partner integrations expert, I've built relationships that lead to long term, repeat business and successfully on-boarded 1,000's of partners of all shapes, sizes, and industries. 
-            </p>
-    
-            <p>
-            Aside from being an awesome teammate and making any organization that I'm a part of stand out within the company, I'm also comfortable and experienced with being an individual contributor, working remotely, and within a distributed team or business model. Find me on <a href="https://www.linkedin.com/in/brian-soldani/">LinkedIn</a>.
-            </p>
-
-    </section>
-
-    <section id="contact-info">
-            <h2>Contact Info</h2>
-            <ul>
-                <button id="button1"><a href="mailto:briansoldani@gmail.com" target="_blank">Email</a></button>
-                <br>
-
-                <button id="button2"><a href="https://briansoldani.github.io/prework-about-me/" target="_blank">My Github</a></button>
-                <br>    
-
-                <button id="button3"><a href="https://briansoldani.github.io/student_bio/portfolio.html" target="_blank">My Portfolio</a></button>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brian Soldani</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
             </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Brian Soldani</h1>
+            <h6>Full Stack Web Developer | Account Manager | Operations Expert</h6>
+        </div>
+    </header>
 
+    <section class="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="600">
+                <img src="images/profile.jpg" alt="profile image" class="">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>
+                    Laughter triggers the release of endorphins, the body's natural feel good chemicals. I bring a healthy dose of "feel good" with me to the office everyday. We all should! If you can't say that you love what you do when you come to work each day, you need to find something else. 
+                </p><br>
+                <p>
+                    I'm a business professional with extensive sales operations and business development experience. I take a hands on approach to solve issues, drive efficiency, and develop strong sales organizations. I have strength in building long term strategic partnerships and establishing rapport with industry professionals. I have a diverse background and experience with a wide range of skills evolved from owning a business and leading startups to growth. I try my best to create a fun working experience for each person I come into contact with and bring some joy to people's lives each day.
+                </p><br>
+                <p>
+                    I've spent the last several years developing and building out processes to grow ad revenue for Yahoo. As a trusted advisor and partner integration expert, I've built relationships that lead to long term partnerships and successfully on-boarded partners across all industries. 
+                </p>
+
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/brian-soldani/" class="icon-link">
+                                <i class="fab fa-linkedin-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/BrianSoldani" class="icon-link">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    </div>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-right" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Web Design</h1>
+                    <p>
+                        Business professional with extensive sales operations and 
+                        Business professional with extensive sales operations and 
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>
+                        Business professional with extensive sales operations and 
+                        Business professional with extensive sales operations and 
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-left" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h1>Product Management</h1>
+                    <p>
+                        Business professional with extensive sales operations and 
+                        Business professional with extensive sales operations and 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </body>
-</html>    
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="600">
+                    <img src="images/portitem1.jpg" alt="Portfolio Item">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Project One</h6>
+                    <h1>About Your Birthday</h1>
+                    <p>
+                        This started as a class project and became a great platform for fun and entertainment. This application is built with revenue generating potential on a modern, modular design.
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="600">
+                    <h6>Homework 1</h6>
+                    <h1>Homework 1</h1>
+                    <p>
+                        Business professional with extensive sales operations and 
+                        Business professional with extensive sales operations and 
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="600">
+                    <img src="images/portitem2.jpg" alt="Portfolio Item">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="600">
+                    <img src="images/portitem3.jpg" alt="Portfolio Item">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Homework 2</h6>
+                    <h1>Homework 2</h1>
+                    <p>
+                        Business professional with extensive sales operations and 
+                        Business professional with extensive sales operations and 
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>  
+    
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Experience</h1>
+                <h6>Past and current roles</h6>
+            </div>
+            <div class="timeline" data-aos="fade-in" data-aos-delay="400">
+                <ul>
+                    <li class="date" data-date="2020 - Present">
+                        <h1>iMerit</h1>
+                        <p>
+                            Business professional with extensive sales operations and 
+                            Business professional with extensive sales operations and
+                        </p>
+                    </li>
+                    <li class="date" data-date="2008 - 2019">
+                        <h1>Yahoo</h1>
+                        <p>
+                            Business professional with extensive sales operations and 
+                            Business professional with extensive sales operations and
+                        </p>
+                    </li>
+                    <li class="date" data-date="2006 - 2008">
+                        <h1>Kayak</h1>
+                        <p>
+                            Business professional with extensive sales operations and 
+                            Business professional with extensive sales operations and
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+    </section>    
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <form action="" data-aos="fade-up" data-aos-delay="600">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="email">Services:</label>
+                <select name="services" id="service">
+                    <option value="">Web Design</option>
+                    <option value="">Web Development</option>
+                    <option value="">Web Design/Development</option>
+                </select>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit" id="emailbutton"></a>
+            </form>
+        </div>
+    </section>      
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2020 Brian Soldani</p>
+    </footer>  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
